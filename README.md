@@ -56,17 +56,13 @@ There are 2 modes of interacting with the program: modeling and viewing mode, in
 ### Utility Buttons 
 There are also a set of utility buttons in which users can use to modify the color, resolution, or texture of their models. In addition, while modeling terrain objects, there are additional buttons for users to increase or decrease the u- and v-degree. Users can only use these buttons, when they are shown on the screen. To show/unshow the buttons, hit the `U` key. These buttons are only shown in modeling mode, any attempt to show these buttons in viewing mode will force you to go into modeling mode. 
     
-1. Color Buttons
-    -> There are a set of colored buttons on the bottom of the screen, clicking on any color buttons will apply the color on your created model. 
+1. **Color Buttons** &rarr; There are a set of colored buttons on the bottom of the screen, clicking on any color buttons will apply the color on your created model. 
 
-2. Arrow Buttons
-    -> There is an `UP` and `DOWN` arrow button on the bottom right of the screen. Hitting the UP button will increase the resolution of your model, and hitting the DOWN button will decrease the resolution of your model. The maximum resolution that can be achieved is 100 and the minimum resolution that can be achieved is 3. 
+2. **Arrow Buttons** &rarr; There is an `UP` and `DOWN` arrow button on the bottom right of the screen. Hitting the `UP` button will increase the resolution of your model, and hitting the `DOWN` button will decrease the resolution of your model. The maximum resolution that can be achieved is 100 and the minimum resolution that can be achieved is 3. 
 
-3. Texture Buttons
-    -> There are 4 texture buttons (buttons with fancy image mapped to them), one of which is a button (the button with "No Texture" on it) for removing the texture on the model. Otherwise, clicking on other texture buttons will apply the image on the button onto the model. 
+3. **Texture Buttons** &rarr; There are 4 texture buttons (buttons with fancy image mapped to them), one of which is a button (the button with "No Texture" on it) for removing the texture on the model. Otherwise, clicking on other texture buttons will apply the image on the button onto the model. 
 
-4. Range Buttons (only available when modeling terrain objects)
-    -> There are two range buttons, one for the u-degree and one for the v-degree. Each range has a PLUS and MINUS button associated with it to increase or decrease the corresponding degree. U-degree range has an "X" label for it and V-degree has a "Y" label for it. The number of degree will be determined by the number of white strips. 
+4. **Range Buttons** (only available when modeling terrain objects) &rarr; There are two range buttons, one for the u-degree and one for the v-degree. Each range has a `+` and `-` button associated with it to increase or decrease the corresponding degree. U-degree range has an `X` label for it and v-degree has a `Y` label for it. The number of degree will be determined by the number of white strips. 
 
 ### Light Manipulation
 Hit the `1` or `2` key to rotate the light source clockwise or counterclockwise around your created model for better lighting on your desired view direction. 
