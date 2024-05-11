@@ -53,7 +53,7 @@ There are 2 modes of interacting with the program: modeling and viewing mode, in
 
     - When entering viewing mode while modeling terrain objects, users can manipulate the depth of control points by using the &uarr; or &darr; key to increase or decrease the depth attribute of the selected control point. The selected control point will be colored &#128994;, and users can switch to the next or previous control point by using the &rarr; or &larr; key, respectively.  
 
-### $$\color{Blue}Utility Buttons$$
+### Utility Buttons
 There are also a set of utility buttons in which users can use to modify the color, resolution, or texture of their models. In addition, while modeling terrain objects, there are additional buttons for users to increase or decrease the u- and v-degree. Users can only use these buttons, when they are shown on the screen. To show/unshow the buttons, hit the `U` key. These buttons are only shown in modeling mode, any attempt to show these buttons in viewing mode will force you to go into modeling mode. 
     
 1. **Color Buttons** &rarr; There are a set of colored buttons on the bottom of the screen, clicking on any color buttons will apply the color on your created model. 
@@ -64,7 +64,7 @@ There are also a set of utility buttons in which users can use to modify the col
 
 4. **Range Buttons** (only available when modeling terrain objects) &rarr; There are two range buttons, one for the u-degree and one for the v-degree. Each range has a `+` and `-` button associated with it to increase or decrease the corresponding degree. U-degree range has an `X` label for it and v-degree has a `Y` label for it. The number of degree will be determined by the number of white strips. 
 
-### Light Manipulation
+### :bulb: Light Manipulation
 Hit the `1` or `2` key to rotate the light source clockwise or counterclockwise around your created model for better lighting on your desired view direction. 
     
 - Hit `B` key to hide/show the surface generated. Note that, while modeling terrain objects, the surface will not be shown if the number of control points does not satisfy $(u + 1) \times (v + 1)$. 
