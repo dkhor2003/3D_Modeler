@@ -53,7 +53,7 @@ There are 2 modes of interacting with the program: modeling and viewing mode, in
 
     - When entering viewing mode while modeling terrain objects, users can manipulate the depth of control points by using the &uarr; or &darr; key to increase or decrease the depth attribute of the selected control point. The selected control point will be colored &#128994;, and users can switch to the next or previous control point by using the &rarr; or &larr; key, respectively.  
 
-### Utility Buttons 
+### $$\color{Blue}Utility Buttons$$
 There are also a set of utility buttons in which users can use to modify the color, resolution, or texture of their models. In addition, while modeling terrain objects, there are additional buttons for users to increase or decrease the u- and v-degree. Users can only use these buttons, when they are shown on the screen. To show/unshow the buttons, hit the `U` key. These buttons are only shown in modeling mode, any attempt to show these buttons in viewing mode will force you to go into modeling mode. 
     
 1. **Color Buttons** &rarr; There are a set of colored buttons on the bottom of the screen, clicking on any color buttons will apply the color on your created model. 
