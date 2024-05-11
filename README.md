@@ -51,7 +51,7 @@ There are 2 modes of interacting with the program: modeling and viewing mode, in
         - **Zoom** &rarr; Hold `Z` key while dragging the mouse up and down the window to zoom in or out the scene respectively.
         - **Twist** &rarr; Hold `T` key while dragging the mouse in the direction you want to rotate the scene around the z-axis. 
 
-    - When entering viewing mode while modeling terrain objects, users can manipulate the depth of control points by using the &uarr; or &darr; key to increase or decrease the depth attribute of the selected control point. The selected control point will be colored <span style="color:green">some *GREEN* text</span>, and users can switch to the next or previous control point by using the &rarr; or &larr; key, respectively.  
+    - When entering viewing mode while modeling terrain objects, users can manipulate the depth of control points by using the &uarr; or &darr; key to increase or decrease the depth attribute of the selected control point. The selected control point will be colored $${\color{green}GREEN}$$, and users can switch to the next or previous control point by using the &rarr; or &larr; key, respectively.  
 
 ### Utility Buttons 
 There are also a set of utility buttons in which users can use to modify the color, resolution, or texture of their models. In addition, while modeling terrain objects, there are additional buttons for users to increase or decrease the u- and v-degree. Users can only use these buttons, when they are shown on the screen. To show/unshow the buttons, hit the `U` key. These buttons are only shown in modeling mode, any attempt to show these buttons in viewing mode will force you to go into modeling mode. 
