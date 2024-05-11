@@ -7,7 +7,8 @@ https://github.com/dkhor2003/3D_Modeler/assets/120704027/c5b1d627-fe4f-4688-9df3
 The full demo and details are available [here](https://www.youtube.com/watch?v=WUpp72sRBaQ).
 
 ## Compiling the program
-1. Compile the shader programs:
+
+Compile the shader programs:
 
     make -f .\Makefile-win shader
 
