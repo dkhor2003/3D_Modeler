@@ -29,17 +29,17 @@ There are 2 modes of interacting with the program: modeling and viewing mode, in
             
     - There are two types of objects that can be created in this interface: hollow or terrain objects. You can choose the model type to be created by hitting `TAB` key. 
             
-        a. **Hollow objects** &rarr; When modeling hollow objects, users can click on the top half of the window screen to render a point, which serves as a control point for constructing the bezier curve. The points on the bezier curve can then be used to generate a hollow object by revolving them along the center line. Each succesive control points generated will be connected by a line. When three or more points are generated, the bezier curve will be presented to give a guideline for how the surface of the hollow object will look like.
+        - **Hollow objects** &rarr; When modeling hollow objects, users can click on the top half of the window screen to render a point, which serves as a control point for constructing the bezier curve. The points on the bezier curve can then be used to generate a hollow object by revolving them along the center line. Each succesive control points generated will be connected by a line. When three or more points are generated, the bezier curve will be presented to give a guideline for how the surface of the hollow object will look like.
             
-        b. **Terrain objects** &rarr; When modeling terrain objects, users need to render a certain number of points in order to construct the bezier surface. This number is determined by the u- and v-degree, which users can choose. The number of points needed is $(u + 1) \times (v + 1)$. 
+        - **Terrain objects** &rarr; When modeling terrain objects, users need to render a certain number of points in order to construct the bezier surface. This number is determined by the u- and v-degree, which users can choose. The number of points needed is $(u + 1) \times (v + 1)$. 
 
     - In either modeling mode, use mouse to click on the window screen to render a point, which serves as a control point for constructing the bezier curve/surface. Note that adding another control point when modeling a terrain object will hide the surface of the object (if the surface is shown) because the number of control points needed must satisfy $(u + 1) \times (v + 1)$ in order to generate a surface. 
         
     - There are two modes of editing model shape, in which users can switch between them by hitting the `ENTER` key:
             
-        a. **Moving control points** &rarr; Click and drag on existing control points to move their position. When a control point is moved, the surface of the model will change in real time for users to let users edit their models to their liking. Note that you cannot move a control point below the center line when modeling hollow objects. 
+        - **Moving control points** &rarr; Click and drag on existing control points to move their position. When a control point is moved, the surface of the model will change in real time for users to let users edit their models to their liking. Note that you cannot move a control point below the center line when modeling hollow objects. 
             
-        b. **Removing control points** &rarr; Click on an existing control point to remove it. This is implemented for users to remove control points that are unnecessary. When a control point is removed, the surface of the model will change accordingly as well. Note that removing a control point when modeling a terrain object will hide the surface of the object (if the surface is shown) because the number of control points needed must satisfy $(u + 1) \times (v + 1)$ in order to generate a surface. 
+        - **Removing control points** &rarr; Click on an existing control point to remove it. This is implemented for users to remove control points that are unnecessary. When a control point is removed, the surface of the model will change accordingly as well. Note that removing a control point when modeling a terrain object will hide the surface of the object (if the surface is shown) because the number of control points needed must satisfy $(u + 1) \times (v + 1)$ in order to generate a surface. 
 
 2. Viewing mode (Mode for inspecting the 3D model by controlling the camera)
     
