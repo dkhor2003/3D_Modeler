@@ -12,13 +12,13 @@ Compile the shader programs:
 
     make -f .\Makefile-win shader
 
-2. Compile the `.exe` program:
+Compile the `.exe` program:
 
     make -f .\Makefile-win
 
-3. Start the interface:
+Start the interface:
 
-    ./3D_Modeler.exe
+    .\3D_Modeler.exe
 
 ## Program Usage
 - There are 2 modes of interacting with the program: modeling and viewing mode, in which you can switch between the two modes using the `SPACE` key. 
