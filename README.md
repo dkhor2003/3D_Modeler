@@ -21,9 +21,11 @@ Start the interface:
     .\3D_Modeler.exe
 
 ## Program Usage
-- There are 2 modes of interacting with the program: modeling and viewing mode, in which you can switch between the two modes using the `SPACE` key. 
 
-    1. Modeling mode (Mode for creating the 3D model)
+### Editing and Viewing Mode
+There are 2 modes of interacting with the program: modeling and viewing mode, in which you can switch between the two modes using the `SPACE` key. 
+
+1. Modeling mode (Mode for creating the 3D model)
             
         - There are two types of objects that can be created in this interface: hollow or terrain objects. You can choose the model type to be created by hitting `TAB` key. 
             
