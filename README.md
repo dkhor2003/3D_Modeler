@@ -7,13 +7,17 @@ https://github.com/dkhor2003/3D_Modeler/assets/120704027/c5b1d627-fe4f-4688-9df3
 The full demo and details are available [here](https://www.youtube.com/watch?v=WUpp72sRBaQ).
 
 ## Compiling the program
-1. In the terminal, first type in the command: `make -f .\Makefile-win shader` to compile the shader programs
-2. In the terminal, type in the command: `make -f .\Makefile-win` to compile the .exe program
-3. Run the program by using the command: `.\3D_Modeler.exe`
+1. Compile the shader programs:
 
-Train from scratch:
+    make -f .\Makefile-win shader
 
-    python main.py --mode=train  --model_name=efficientnetv2-s  --dataset_cfg=imagenet --model_dir=$DIR 
+2. Compile the `.exe` program:
+
+    make -f .\Makefile-win
+
+3. Start the interface:
+
+    ./3D_Modeler.exe
 
 ## Program Usage
 - There are 2 modes of interacting with the program: modeling and viewing mode, in which you can switch between the two modes using the `SPACE` key. 
