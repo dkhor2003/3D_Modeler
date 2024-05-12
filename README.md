@@ -9,6 +9,9 @@ https://github.com/dkhor2003/3D_Modeler/assets/120704027/c5b1d627-fe4f-4688-9df3
 
 The full demo and details are available [here](https://www.youtube.com/watch?v=WUpp72sRBaQ).
 
+## Setting Up Vulkan on Your Device
+1. Download and install the Vulkan SDK based on your platform [here](https://vulkan.lunarg.com/sdk/home).
+
 ## Compiling the program
 Clone this repo:
 
