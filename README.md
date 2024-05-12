@@ -25,10 +25,10 @@ Start the interface:
 
 ## Program Usage
 
-### <ins>Modeling :vs: Viewing Mode</ins>
+### Modeling :vs: Viewing Mode
 There are 2 modes of interacting with the program: modeling and viewing mode, in which you can switch between the two modes using the `SPACE` key. 
 
-1. **Modeling mode** (Mode for creating and editing the 3D model)
+1. <ins>**Modeling mode**</ins> (Mode for creating and editing the 3D model)
             
     - There are two types of objects that can be created in this interface: hollow or terrain objects. You can choose the model type to be created by hitting `TAB` key. 
             
@@ -44,7 +44,7 @@ There are 2 modes of interacting with the program: modeling and viewing mode, in
             
         - **Removing control points** &rarr; Click on an existing control point to remove it. This is implemented for users to remove control points that are unnecessary. When a control point is removed, the surface of the model will change accordingly as well. Note that removing a control point when modeling a terrain object will hide the surface of the object (if the surface is shown) because the number of control points needed must satisfy $(u + 1) \times (v + 1)$ in order to generate a surface. 
 
-2. **<u>Viewing mode</u>** (Mode for inspecting the 3D model by controlling the camera)
+2. **<ins>Viewing mode</ins>** (Mode for inspecting the 3D model by controlling the camera)
     
     - When entering viewing mode, the model will first be centered on the screen. There are 5 main controls for manipulating the cemera:
         
