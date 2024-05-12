@@ -25,7 +25,7 @@ Start the interface:
 
 ## Program Usage
 
-### Modeling :vs: Viewing Mode
+### <u>Modeling :vs: Viewing Mode </u>
 There are 2 modes of interacting with the program: modeling and viewing mode, in which you can switch between the two modes using the `SPACE` key. 
 
 1. __**Modeling mode**__ (Mode for creating and editing the 3D model)
@@ -86,8 +86,8 @@ https://github.com/dkhor2003/3D_Modeler/assets/120704027/63621aab-5716-4a71-8e73
 - Hit `A` key to switch between perspective :left_right_arrow: orthographics perspectives. 
 - Hit `ESC` key to quit the program.
 
-## Current Limitations of the Program 
-- The placement of the utility buttons are not the most optimal. 
+## :warning: Current Limitations of the Program 
+- Utility buttons do not look aesthetic and the placement of the utility buttons are not the most optimal. 
 - Resizing the original window makes control point selection inaccurate. 
-- Saved models' obj files do not contain information about its color and loaded models do not contain the texture they are saved from. 
+- Saved models' `obj` files do not contain information about its color and loaded models do not contain the texture they are saved from. 
 
