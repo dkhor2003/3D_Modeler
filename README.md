@@ -25,8 +25,8 @@ Start the interface:
 
 ## Program Usage
 
-### __Modeling :vs: Viewing Mode__
-There are __2__ modes of interacting with the program: modeling and viewing mode, in which you can switch between the two modes using the `SPACE` key. 
+### <ins>Modeling :vs: Viewing Mode</ins>
+There are 2 modes of interacting with the program: modeling and viewing mode, in which you can switch between the two modes using the `SPACE` key. 
 
 1. **Modeling mode** (Mode for creating and editing the 3D model)
             
