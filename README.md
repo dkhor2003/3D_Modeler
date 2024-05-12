@@ -78,6 +78,7 @@ Hit the `1` or `2` key to rotate the light source clockwise or counterclockwise 
 - Once you are satisfied with your created model, use `CTRL + S` keys to save your model into the `models` directory as an obj file. A prompt will appear on the console for you to name your model, which then saves your model as `"modelName".obj` under the `models` directory. 
 - Hit `C` to check a model that you saved. This will prompt you to specify a model's name to load from the `models` directory. Once loaded, the model will be displayed on your screen in viewing mode for you to check. Going back to modeling mode will disable this model checking mode. 
 - Here is a demo of how to load a saved `obj` file into another 3D graphics software: **Blender**:
+
 https://github.com/dkhor2003/3D_Modeler/assets/120704027/63621aab-5716-4a71-8e73-c9c3792812a9 
 
 ### :information_source: Other Features
