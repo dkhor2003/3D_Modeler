@@ -25,7 +25,7 @@ Start the interface:
 ### Modeling :vs: Viewing Mode
 There are 2 modes of interacting with the program: modeling and viewing mode, in which you can switch between the two modes using the `SPACE` key. 
 
-1. Modeling mode (Mode for creating the 3D model)
+1. **<u>Modeling mode</u>** (Mode for creating the 3D model)
             
     - There are two types of objects that can be created in this interface: hollow or terrain objects. You can choose the model type to be created by hitting `TAB` key. 
             
@@ -41,7 +41,7 @@ There are 2 modes of interacting with the program: modeling and viewing mode, in
             
         - **Removing control points** &rarr; Click on an existing control point to remove it. This is implemented for users to remove control points that are unnecessary. When a control point is removed, the surface of the model will change accordingly as well. Note that removing a control point when modeling a terrain object will hide the surface of the object (if the surface is shown) because the number of control points needed must satisfy $(u + 1) \times (v + 1)$ in order to generate a surface. 
 
-2. Viewing mode (Mode for inspecting the 3D model by controlling the camera)
+2. **<u>Viewing mode</u>** (Mode for inspecting the 3D model by controlling the camera)
     
     - When entering viewing mode, the model will first be centered on the screen. There are 5 main controls for manipulating the cemera:
         
@@ -62,23 +62,22 @@ There are also a set of utility buttons in which users can use to modify the col
 
 3. **Texture Buttons** &rarr; There are 4 texture buttons (buttons with fancy image mapped to them), one of which is a button (the button with "No Texture" on it) for removing the texture on the model. Otherwise, clicking on other texture buttons will apply the image on the button onto the model. 
 
-4. **Range Buttons** (only available when modeling terrain objects) &rarr; There are two range buttons, one for the u-degree and one for the v-degree. Each range has a `+` and `-` button associated with it to increase or decrease the corresponding degree. U-degree range has an `X` label for it and v-degree has a `Y` label for it. The number of degree will be determined by the number of white strips. 
+4. **Range Buttons** (only available when modeling terrain objects) &rarr; There are two range buttons, one for the u-degree and one for the v-degree. Each range has a :heavy_plus_sign: and :heavy_minus_sign: button associated with it to increase or decrease the corresponding degree. U-degree range has an `X` label for it and v-degree has a `Y` label for it. The number of degree will be determined by the number of white strips. 
+
+### :exclamation: Surface Operations
+- Hit `B` key to hide/show the surface generated. Note that, while modeling terrain objects, the surface will not be shown if the number of control points does not satisfy $(u + 1) \times (v + 1)$. 
+- Hit `N` key to hide/show the normal vectors of the generated surface. 
 
 ### :bulb: Light Manipulation
 Hit the `1` or `2` key to rotate the light source clockwise or counterclockwise around your created model for better lighting on your desired view direction. 
-    
-- Hit `B` key to hide/show the surface generated. Note that, while modeling terrain objects, the surface will not be shown if the number of control points does not satisfy $(u + 1) \times (v + 1)$. 
 
-- Hit `N` key to hide/show the normal vectors of the generated surface. 
-
-- Hit `M` key to clear everything (control points, lines, bezier curve, surface, normal vectors) on the interface. 
-
-- Hit `A` key to switch between perspective and orthographics perspectives. 
-
-- Once you are satisfied with your created model, use `CTRL + S` keys to save your model into the `models` directory as an obj file. A prompt will appear on the console for you to name your model, which then saves your model as `modelName.obj` under the `models` directory. 
-
+### :radio_button: Saving and Loading Models
+- Once you are satisfied with your created model, use `CTRL + S` keys to save your model into the `models` directory as an obj file. A prompt will appear on the console for you to name your model, which then saves your model as `"modelName".obj` under the `models` directory. 
 - Hit `C` to check a model that you saved. This will prompt you to specify a model's name to load from the `models` directory. Once loaded, the model will be displayed on your screen in viewing mode for you to check. Going back to modeling mode will disable this model checking mode. 
 
+### :information_source: Other Features
+- Hit `M` key to clear everything (control points, lines, bezier curve, surface, normal vectors) on the interface. 
+- Hit `A` key to switch between perspective :left_right_arrow: orthographics perspectives. 
 - Hit `ESC` key to quit the program.
 
 ## Current Limitations of the Program 
