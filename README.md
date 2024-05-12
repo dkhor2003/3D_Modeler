@@ -10,6 +10,9 @@ https://github.com/dkhor2003/3D_Modeler/assets/120704027/c5b1d627-fe4f-4688-9df3
 The full demo and details are available [here](https://www.youtube.com/watch?v=WUpp72sRBaQ).
 
 ## Compiling the program
+Clone this repo:
+
+    git clone https://github.com/dkhor2003/3D_Modeler/tree/main
 
 Compile the shader programs:
 
@@ -63,7 +66,7 @@ There are also a set of utility buttons in which users can use to modify the col
 
 2. **Arrow Buttons** &rarr; There is an :arrow_up: and :arrow_down: button on the bottom right of the screen. Hitting the :arrow_up: button will increase the resolution of your model, and hitting the :arrow_down: button will decrease the resolution of your model. The maximum resolution that can be achieved is 100 and the minimum resolution that can be achieved is 3. 
 
-3. **Texture Buttons** &rarr; There are 4 texture buttons (buttons with fancy image mapped to them), one of which is a button (the button with "No Texture" on it) for removing the texture on the model. Otherwise, clicking on other texture buttons will apply the image on the button onto the model. 
+3. **Texture Buttons** &rarr; There are 4 texture buttons (buttons with fancy image mapped to them), one of which is a button (the button with **No Texture** on it) for removing the texture on the model. Otherwise, clicking on other texture buttons will apply the image on the button onto the model. 
 
 4. **Range Buttons** (only available when modeling terrain objects) &rarr; There are two range buttons, one for the u-degree and one for the v-degree. Each range has a :heavy_plus_sign: and :heavy_minus_sign: button associated with it to increase or decrease the corresponding degree. U-degree range has an `X` label for it and v-degree has a `Y` label for it. The number of degree will be determined by the number of white strips. 
 
