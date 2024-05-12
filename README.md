@@ -1,5 +1,5 @@
 ## 3D Modeler
-This program serves as an interface for users to design a 3D model. Users can choose to create a hollow 3D object or a terrain object, and edit its color, texture, resolution, and shape to their liking. Once the user is done editing their model, they can inspect their model by viewing the model in different directions using the built-in camera. If the user is satisfied with their created model, they can export their model into an obj file, and load it into a different program to be used. 
+This program serves as an interface for users to design a 3D model. Users can choose to create a hollow 3D object or a terrain object, and edit its color, texture, resolution, and shape to their liking. Once the user is done editing their model, they can inspect their model by viewing the model in different directions using the built-in camera. If the user is satisfied with their created model, they can export their model into an obj file, and load it into a different graphics application (e.g. Blender, SolidWorks) to be used. 
 
 ## Program Demo
 https://github.com/dkhor2003/3D_Modeler/assets/120704027/c5b1d627-fe4f-4688-9df3-a9740dc861a6 
