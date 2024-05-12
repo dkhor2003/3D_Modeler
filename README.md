@@ -12,6 +12,7 @@ The full demo and details are available [here](https://www.youtube.com/watch?v=W
 ## Setting Up Vulkan on Your Device
 1. Download and install the Vulkan SDK based on your platform [here](https://vulkan.lunarg.com/sdk/home).
 2. Download the pre-compiled binaries for GLFW [here](https://www.glfw.org/download). Unzip it and put the folder under the Vulkan SDK installation folder. 
+3. Create an environment variable called `VULKAN_SDK` that points to the Vulkan SDK installation folder. 
 
 ## Compiling the program
 Clone this repo:
