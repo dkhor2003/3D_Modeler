@@ -12,7 +12,7 @@ The full demo and details are available [here](https://www.youtube.com/watch?v=W
 ## Compiling the program
 Clone this repo:
 
-    git clone https://github.com/dkhor2003/3D_Modeler/tree/main
+    git clone https://github.com/dkhor2003/3D_Modeler.git
 
 Compile the shader programs:
 
