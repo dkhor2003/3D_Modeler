@@ -1,9 +1,9 @@
-![GitHub all releases](https://img.shields.io/github/downloads/{dkhor2003}/{3D_Modeler}/total)
-![GitHub language count](https://img.shields.io/github/languages/count/{dkhor2003}/{3D_Modeler})
-![GitHub top language](https://img.shields.io/github/languages/top/{dkhor2003}/{3D_Modeler}?color=yellow)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/{dkhor2003}/{3D_Modeler})
-![GitHub forks](https://img.shields.io/github/forks/{dkhor2003}/{3D_Modeler}?style=social)
-![GitHub Repo stars](https://img.shields.io/github/stars/{dkhor2003}/{3D_Modeler}?style=social)
+![GitHub all releases](https://img.shields.io/github/downloads/dkhor2003/3D_Modeler/total)
+![GitHub language count](https://img.shields.io/github/languages/count/dkhor2003/3D_Modeler)
+![GitHub top language](https://img.shields.io/github/languages/top/dkhor2003/3D_Modeler?color=yellow)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/dkhor2003/3D_Modeler)
+![GitHub forks](https://img.shields.io/github/forks/dkhor2003/3D_Modeler?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/dkhor2003/3D_Modeler?style=social)
 
 ## 3D Modeler
 This program serves as an interface for users to design a 3D model. Users can choose to create a hollow 3D object or a terrain object, and edit its color, texture, resolution, and shape to their liking. Once the user is done editing their model, they can inspect their model by viewing the model in different directions using the built-in camera. If the user is satisfied with their created model, they can export their model into an obj file, and load it into a different graphics application (e.g. Blender, SolidWorks) to be used. 
